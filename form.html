@@ -1,19 +1,33 @@
-<html>
+<!DOCTYPE html>
 
+<html>
+<head>
+	<style type="text/css">
+	     input[type=text]:focus {
+  border: 3px solid #555;}
+
+   input[type=email]:focus {
+  border: 3px solid #555;}
+
+ 
+
+
+	</style>
+</head>
 <body>
 	<h1>First HTML form</h1>
-   <p1>This is a form that intakes name,email adress,gender,academic program,programming interests.</p1>
+   <p1>This is a form that intakes name,email adress,gender,academic program,programming interests.</p1><br>
 
    <form action="/action_page.php" target="_blank" method="GET">
-	First name:<br>
+	<h5> First name:<br></h5>
 	<input type="text"
-	name="Firstname"><br>
+	name="Firstname" ><br>
 
-	Last name:<br>
+	<h5>Last name:<br></h5>
 	<input type="text"
 	name="Lastname"><br>
 	
-	Gender:<br>
+	<h5>Gender:<br></h5>
 	<input type="radio" name="gender"
 	value="Male"> Male<br>
 	<input type="radio" name="gender"
@@ -21,11 +35,11 @@
 	<input type="radio" name="gender"
 	value="other"> Other<br>
 	
-	Mail adress:<br>
+	<h5>Mail adress:<br></h5>
 	<input type="email"
 	name="Mailadress"><br>
 
-    Academic program:<br>
+    <h5>Academic program:<br></h5>
 	<select name="academic program">
 		<option value="Select your option">select</option>
 		<option value="ECE">ECE</option>
@@ -33,12 +47,13 @@
 		<option value="Mechnical">Mechanical</option>
 		<option value="EEE">EEE</option>
 		<option value="Civil">Civil</option>
-	</select>
+	</select><br>
 
-    Adress:<br>
-	<textarea name="adress" rows="15" cols="40"></textarea>
 
-    Programing Language:<br>
+    <h5>Adress:<br></h5>
+	<textarea name="adress" rows="15" cols="40"></textarea><br>
+
+    <h5>Programing Language:<br></h5>
     <input type="Checkbox" name="Programing Language" value="python"> python<br>
     <input type="Checkbox" name="Programing Language" value="C++"> C++<br>
     <input type="Checkbox" name="Programing Language" value="Java">Java<br>
