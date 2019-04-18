@@ -1,0 +1,52 @@
+<html>
+
+<body>
+	<h1>First HTML form</h1>
+   <p1>This is a form that intakes name,email adress,gender,academic program,programming interests.</p1>
+
+   <form action="/action_page.php" target="_blank" method="GET">
+	First name:<br>
+	<input type="text"
+	name="Firstname"><br>
+
+	Last name:<br>
+	<input type="text"
+	name="Lastname"><br>
+	
+	Gender:<br>
+	<input type="radio" name="gender"
+	value="Male"> Male<br>
+	<input type="radio" name="gender"
+	value="Female"> Female<br>
+	<input type="radio" name="gender"
+	value="other"> Other<br>
+	
+	Mail adress:<br>
+	<input type="email"
+	name="Mailadress"><br>
+
+    Academic program:<br>
+	<select name="academic program">
+		<option value="Select your option">select</option>
+		<option value="ECE">ECE</option>
+		<option value="CSE">CSE</option>
+		<option value="Mechnical">Mechanical</option>
+		<option value="EEE">EEE</option>
+		<option value="Civil">Civil</option>
+	</select>
+
+    Adress:<br>
+	<textarea name="adress" rows="15" cols="40"></textarea>
+
+    Programing Language:<br>
+    <input type="Checkbox" name="Programing Language" value="python"> python<br>
+    <input type="Checkbox" name="Programing Language" value="C++"> C++<br>
+    <input type="Checkbox" name="Programing Language" value="Java">Java<br>
+
+	<input type="submit" value="submit">
+
+
+    </form>
+
+</body>
+</html>
